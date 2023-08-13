@@ -65,22 +65,22 @@ Follow the instructions on the app to input laptop features and get a price pred
 
 ## Steps
 ### Data Collection
-We collected data from various sources to create a comprehensive dataset of laptop specifications and prices.
+Data was collected from various sources to create a comprehensive dataset of laptop specifications and prices.
 
 ### Data Preprocessing
-We cleaned the collected data, handled missing values, and performed data transformations to make it suitable for model training.
+Cleaned the collected data, handled missing values, and performed data transformations to make it suitable for model training.
 
 ### Exploratory Data Analysis
-We conducted exploratory data analysis (EDA) to gain insights into the dataset, visualize feature distributions, and identify potential patterns.
+Conducted exploratory data analysis (EDA) to gain insights into the dataset, visualize feature distributions, and identify potential patterns.
 
 ### Feature Engineering
-We engineered new features based on domain knowledge and performed feature selection to enhance the predictive power of the model.
+Engineered new features based on domain knowledge and performed feature selection to enhance the predictive power of the model.
 
 ### Model Training
-We trained a regression model using the preprocessed data and evaluated its performance using appropriate metrics.
+Trained a regression model using the preprocessed data and evaluated its performance using appropriate metrics.
 
 ### Deployment with Streamlit
-We deployed the trained model using Streamlit, creating an interactive web application for users to input laptop specifications and receive price predictions.
+Used Localhost to run the trained model using Streamlit, creating an interactive web application for users to input laptop specifications and receive price predictions.
 
 ## Data
 The dataset used for training and testing the model is stored in `laptop_data.csv`. This dataset contains information about various laptops and their corresponding prices.
