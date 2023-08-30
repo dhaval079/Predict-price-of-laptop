@@ -7,8 +7,11 @@ import numpy as np
 
 
 #import the model
-pipe=pickle.load(open('pipe.pkl','rb'))
-df=pickle.load(open('df.pkl','rb'))
+file_path_pipe = os.path.join(os.path.dirname(__file__), 'pipe.pkl')
+pipe=pickle.load(open(file_path_pipe,'rb'))
+
+file_path = os.path.join(os.path.dirname(__file__), 'df.pkl')
+df=pickle.load(open(file_path,'rb'))
 
 st.title("Laptop Predictor")
 
