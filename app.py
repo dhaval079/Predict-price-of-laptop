@@ -4,7 +4,7 @@ import pickle
 import pandas as pd
 import math
 import numpy as np
-
+import os
 
 #import the model
 file_path_pipe = os.path.join(os.path.dirname(__file__), 'pipe.pkl')
