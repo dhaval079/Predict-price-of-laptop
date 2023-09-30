@@ -33,6 +33,7 @@ Make sure you have the following dependencies installed:
 - Jupyter Notebook
 - Streamlit
 - Flask
+- Docker
 
 ### Installation
 1. Clone the repository:
