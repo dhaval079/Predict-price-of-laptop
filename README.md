@@ -18,6 +18,7 @@ This repository contains a laptop price prediction model using regression techni
   - [Feature Engineering](#feature-engineering)
   - [Model Training](#model-training)
   - [Deployment to localhost with Streamlit](#deployment-with-streamlit)
+  - [Dockerised the appplication](#dockerization)
 - [Data](#data)
 - [Contributing](#contributing)
 - [License](#license)
@@ -81,6 +82,18 @@ Trained a regression model using the preprocessed data and evaluated its perform
 
 ### Deployment with Streamlit
 Used Localhost to run the trained model using Streamlit, creating an interactive web application for users to input laptop specifications and receive price predictions.
+
+### Dockerization
+The application has been Dockerized for easy deployment. You can build and run the Docker container using the provided Dockerfile. To build the Docker container, run the following commands:
+
+```sh
+docker build -t laptop-price-prediction .
+```
+
+#### Run the image :
+```
+docker run -p 8501:8501 laptop-price-prediction
+```
 
 ## Data
 The dataset used for training and testing the model is stored in `laptop_data.csv`. This dataset contains information about various laptops and their corresponding prices.
